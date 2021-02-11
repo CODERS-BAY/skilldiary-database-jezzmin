@@ -10,9 +10,9 @@ Database => to safe data somewhere
   - structured datas
   
 ##### Entity relationship model
-  -entity = object -> square
-  -attribut = eigenschaft -> circle
-  -relationship -> #
+  - entity = object -> square
+  - attribut = eigenschaft -> circle
+  - relationship -> #
   
 ##### forms 
   - 1 : 1
