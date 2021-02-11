@@ -4,17 +4,17 @@
 
 Database => to safe data somewhere
 
-##### Why database? 
+#### Why database? 
   - you see the datas from users
   - security against loss
   - structured datas
   
-##### Entity relationship model
+#### Entity relationship model
   - entity = object -> square
   - attribut = eigenschaft -> circle
   - relationship -> #
   
-##### forms 
+#### Forms 
   - 1 : 1
   - 1 : n
   - n : 1
