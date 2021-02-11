@@ -1,21 +1,15 @@
-# Skill Diary Database Vöcklabruck
-## Informational Stuff
-The trainers of CODERS.BAY decided to let you write a documentation of what you have learned. 
+# Skill Diary Database 
 
-Please keep this as your diary and write a short summary with code snippets and some theoretical topics daily in the last half an hour of the day.
+## Chapter One 10.02.2021
 
-Just to let you know this will be your personal reference book. 
+Database => to safe data somewhere
 
-You are going to have three GIT Repositories where you document your progress of the course.
-
-In this Repository we are gonna collect all information of the database classes. 
-
-I'm going to give you all reviews in the form of issues every week, where I'm going to review your documentary by the following criteria:
-- code quality
-- quality of content 
-- totality of your documentation.
-
-As it is a personal documentation the styling and structure is up to your personal preferences.
+Why database? 
+  - you see the datas from users
+  - security against loss
+  - structured datas
+  
+ 
 
 ## Markdown Cheatsheet
 ### Headlines
