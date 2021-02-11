@@ -15,12 +15,26 @@ Database => to safe data somewhere
   - relationship -> #
   
 #### Forms 
+
+  n = many
+  m = also many
+  
   - 1 : 1
   - 1 : n
   - n : 1
   - m : n
   
-  example -> mother (1) ----- has ----- (n) child
+ example -> mother (1) ----- has ----- (n) child
+             child (child name: varchar; _child svn_: int)
+             
+ #### Keys
+ 
+ key has to be underlined
+ unique identification
+ 
+ #### Datatype
+             
+  
   
 
 ## Markdown Cheatsheet
