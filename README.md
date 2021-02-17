@@ -49,6 +49,10 @@ Database => to safe data somewhere
  here are some datatypes:
  
  https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+ 
+ ## Chapter Two 17.02.2021
+ 
+ 
   
   
 
