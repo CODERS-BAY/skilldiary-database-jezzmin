@@ -8,6 +8,17 @@ Database => to safe data somewhere
   - you see the datas from users
   - security against loss
   - structured datas
+
+#### 9 CODD-SCHEN requirements
+  - integration
+  - operation
+  - catalog
+  - user's view
+  - integrity backup
+  - access control
+  - transaction
+  - sync
+  - backup
   
 #### Entity relationship model
   - entity = object -> square
