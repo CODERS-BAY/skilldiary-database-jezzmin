@@ -52,7 +52,16 @@ Database => to safe data somewhere
  
  ## Chapter Two 17.02.2021
  
- 
+#### Database Management System - DBMS
+
+ - hierachic DBMS
+ - network type DBMS
+ - relational DBMS
+ - invertet lists DBMS
+ - object relationed DBMS
+ - object oriented DBMS
+
+if you want to know more it's in pool 1 and 2 the thired powerpoint.
   
   
 
