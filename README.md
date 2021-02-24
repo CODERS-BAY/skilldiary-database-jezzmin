@@ -61,7 +61,7 @@ Database => to safe data somewhere
  - object relationed DBMS
  - object oriented DBMS
 
-if you want to know more it's in pool 1 and 2 the thired powerpoint.
+if you want to know more it's in pool 1 and 2 the third powerpoint.
   
   
 
