@@ -117,16 +117,12 @@ Bereitstellung von Kennzahlen über Betrieb des DBMS
 Synonyme
 unterschiedliche Bezeichnungen für eine Entität, die logisch dieselbe Entität kennzeichnet.
 
-Zustellung
-                  = Versand
-Auslieferung
+Zustellung & Auslieferung = Versand
 
 Homonyme
 ein Name wurde vergeben, jedoch sind unterschiedliche logische Entitäten gemeint.
-   
-                Kundenbestellung
-Bestellung  =
-                Lieferantenbestellung
+
+Bestellung  = Lieferantenbestellung & Kundenbestellung
 
 ## ERD
 Entity Relationship Diagramm
