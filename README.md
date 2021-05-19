@@ -8,6 +8,8 @@ Database => to safe data somewhere
   - you see the datas from users
   - security against loss
   - structured datas
+ 
+
 
 #### 9 CODD-SCHEN requirements
   - integration
@@ -62,7 +64,97 @@ Database => to safe data somewhere
  - object oriented DBMS
 
 if you want to know more it's in pool 1 and 2 the third powerpoint.
-  
+
+## Redundanz 
+ist die mehrmalige Speicherung ein und derselben Information
+
+## Anomilie
+Update
+Insert
+Delete
+
+#Normalform
+
+## 1. NF
+Eine in 1. Normalform befindliche Relation enthält keine Attribute, die sich aus mehreren Elementen zusammensetzen.
+Problem -> könnten logisch unrichtige Tupel eingefügt werden
+
+## 2. NF
+ist gekennzeichnet, daß jedes nicht dem Schlüssel angehörende Attribut funktional abhängig ist vom Gesamtschlüssel (=1.NF) nicht aber von den einzelnen Schlüsselteilen
+Problem -> Es wird zu einer inkonsistenten Datenbank führen, wenn der letzte Satz <103, Paul, 3, Chemie> aufgenommen wird. Die korrekte Zuordnung wäre <2, Chemie>, nicht aber <3, Chemie>.
+
+## 3. NF
+Eine in 3.Normalform befindliche Relation ist dadurch gekennzeichnet, dass jedes nicht dem Schlüssel angehörende Attribut funktional abhängig ist vom Gesamtschlüssel (=1.NF), nicht aber von einzelnen Schlüsselteilen (=2.NF). Weiters sind keine transitiven Abhängigkeiten (funktionale Abhängigkeiten zwischen Nicht-Schlüssel-Attributen) erlaubt
+
+1NF: funktional abhängig vom Gesamtschlüssel
+2NF: keine funktionalen Abhängigkeiten von Schlüsselteilen
+3NF: keine funktionalen Abhängigkeiten von Nichtschlüsselattributen
+
+##Kardinalitäten
+
+binär -> zwei Entitäten
+ternär -> drei begeleitete Entitäten
+unär -> eine begleitete Entität
+
+##DBMS
+
+Strukturierung der Datenmengen
+Niemand kennt im Unternehmen ‚alle Daten‘
+Optimierung der vorhandenen Daten
+
+Daten sind im strategischen Interesse eines Unternehmens
+Integration in den Gegenstand 'Systemplanung und Projektentwicklung'
+
+Insert, update und delete von Daten
+Verwaltung von Metadaten
+Vorkehrungen zu Datensicherheit und Datenschutz
+Vorkehrungen zur Datenintegrität
+Ermöglichung eines Mehrbenutzerbetriebs (Transaktionen)
+Bereitstellung von Kennzahlen über Betrieb des DBMS
+
+## Synonyme oder Homonyme
+
+Synonyme
+unterschiedliche Bezeichnungen für eine Entität, die logisch dieselbe Entität kennzeichnet.
+
+Zustellung
+                  = Versand
+Auslieferung
+
+Homonyme
+ein Name wurde vergeben, jedoch sind unterschiedliche logische Entitäten gemeint.
+   
+                Kundenbestellung
+Bestellung  =
+                Lieferantenbestellung
+
+## ERD
+Entity Relationship Diagramm
+
+Die Entitäten werden durch Rechtecke dargestellt
+
+Die Beziehungen werden durch Verbindungslinien zwischen den Entitäten dargestellt:
+Die Beziehungen werden in beide Richtungen bezeichnet. Typischerweise durch aktive und passive Verben:
+Schließlich werden noch die sogenannten Kardinalitäten eingefügt
+
+## Schlüssel
+
+Fremdschlüssel
+ist ein Attribut, das in einer anderen Relation ein Primärschlüssel ist (foreign key)
+
+Sekundärschlüssel
+erlaubt den Zugriff auf ein oder mehrere Datensätze
+
+Zusammengesetzter Schlüssel
+Entitäten werden durch mehr als 1 Attribut identifiziert.
+
+<b> Tupel = Zeile </b>
+
+## Sub- Supertyp
+
+
+
+
   
 
 ## Markdown Cheatsheet
