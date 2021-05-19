@@ -73,7 +73,7 @@ Update
 Insert
 Delete
 
-#Normalform
+# Normalform
 
 ## 1. NF
 Eine in 1. Normalform befindliche Relation enthält keine Attribute, die sich aus mehreren Elementen zusammensetzen.
@@ -90,13 +90,13 @@ Eine in 3.Normalform befindliche Relation ist dadurch gekennzeichnet, dass jedes
 2NF: keine funktionalen Abhängigkeiten von Schlüsselteilen
 3NF: keine funktionalen Abhängigkeiten von Nichtschlüsselattributen
 
-##Kardinalitäten
+## Kardinalitäten
 
 binär -> zwei Entitäten
 ternär -> drei begeleitete Entitäten
 unär -> eine begleitete Entität
 
-##DBMS
+## DBMS
 
 Strukturierung der Datenmengen
 Niemand kennt im Unternehmen ‚alle Daten‘
