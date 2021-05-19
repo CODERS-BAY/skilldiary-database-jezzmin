@@ -174,6 +174,8 @@ SELECT last_name as Nachname FROM employees;
 
 SELECT DISTINCT …
 
+ DISTINCT - nur eines nicht doppelt
+
 ## Where
 
 LIKE – für Zeichenketten
