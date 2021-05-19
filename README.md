@@ -148,6 +148,71 @@ Entitäten werden durch mehr als 1 Attribut identifiziert.
 
 ## Sub- Supertyp
 
+Synonym: Generalisierung / Spezialisierung
+Synonym: 'is-a' Beziehung
+
+Bei der Spezialisierung wird ein Entitätstyp als Teilmenge eines anderen, ‚übergeordneten‘ Entitätstyps angenommen. Im Supertyp sind alle Attribute, die den Subtypen gemeinsam sind. Im Subtyp 1 findet man alle Attribute, die nur dort und nicht in den anderen Subtypen oder dem Supertyp vorkommen. Damit generalisiert der Supertyp.
+
+## Entitäts Lebenszyklus
+
+Die Identifikationsschlüssel werden initialisiert
+Die Attributwerte, die bei diesem Ereignis nicht berührt werden, sollen initialisiert werden
+Es wird die Verbindung (Fremdschlüssel) zur Master Entität (hier KUNDE) hergestellt
+Der Attributswert von SALDO soll auf den Wert von ERSTEINLAGE gesetzt werden
+Die Verbindung zur Detail Entität (hier TRANSAKTION) wird hergestellt. Bei jeder Ein- oder Auszahlung muß jedesmal eine Entität TRANSAKTION erstellt und mit der Entität KONTO verknüpft werden.
+Der Wert des Attributes SALDO wird mit SALDO + EINZAHLUNG ersetzt
+Der Wert des Attributes SALDO wird mit SALDO - EINZAHLUNG ersetzt
+Die Verbindung zur Master Entität KUNDE wird gelöst.
+
+# SQL
+
+## Select
+
+SELECT * FROM locations ORDER BY city ASC;
+
+SELECT last_name as Nachname FROM employees;
+
+SELECT DISTINCT …
+
+## Where
+
+LIKE – für Zeichenketten
+% - Beliebige Anzahl unbekannter Zeichen
+_ = genau ein unbekanntes Zeichen
+
+SELECT * FROM locations WHERE … 
+
+LIKE, NOT LIKE, =, >=, <=
+
+SELECT job_id, department_id
+FROM employees
+WHERE department_id = 10
+
+## Joins
+
+Verbindet zwei oder mehr Relationen miteinander.
+Abfrage von Daten über zwei oder mehr Tabellen
+
+CROSS JOIN - Jede Zeile von R1 verbunden mit jeder Zeile von R2
+INNER JOIN - Verbindet alle Zeilen von R1 und R2 miteinander, wo ein Match gefunden wird.
+OUTER JOIN - Verbindet alle Zeilen von R1 und R2 miteinander, wo ein Match gefunden wird. Wo keiner gefunden wird, wird der Rest mit NULL aufgefüllt.
+LEFT JOIN - Jede Zeile von R1 verbunden mit dazupassenden Zeilen von R2
+RIGHT JOIN - Jede Zeile von R2 verbunden mit dazupassenden Zeilen von R1
+NATURAL JOIN - Natürlicher Verbund von R1 und R2 bei gleichnamiger Spalte
+
+SELECT employees.last_name, departments.department_name
+FROM employees
+JOIN departments
+ON employees.department_id = departments.department_id;
+
+Über mehreren Tabellen
+
+SELECT department_name, postal_code, city, country_name
+FROM departments
+JOIN locations ON departments.location_id = locations.location_id
+JOIN countries ON locations.country_id = countries.country_id;
+
+
 
 
 
