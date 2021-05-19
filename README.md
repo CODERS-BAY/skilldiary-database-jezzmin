@@ -180,7 +180,14 @@ SELECT DISTINCT …
 
 LIKE – für Zeichenketten
 % - Beliebige Anzahl unbekannter Zeichen
-_ = genau ein unbekanntes Zeichen
+SELECT … 
+WHERE ENAME LIKE ‘M%‘;
+
+
+_ = genau ein unbekanntes Zeichen 
+SELECT … 
+WHERE ENAME LIKE ‘ALL_N‘;
+
 
 SELECT * FROM locations WHERE … 
 
@@ -214,7 +221,43 @@ FROM departments
 JOIN locations ON departments.location_id = locations.location_id
 JOIN countries ON locations.country_id = countries.country_id;
 
+## Order by
 
+…WHERE DEPTNO = 30
+    ORDER BY SAL;
+
+ASC - Aufsteigend
+DESC - Absteigend
+
+## Arithmetische Ausdrücke
+
+Addition
+Subtraktion
+Multiplikation
+Division
+
+## Gruppenfunktion
+
+Avg  
+Count
+Min
+Max
+Sum
+
+## Group by
+
+Ausgabe der Durchschnittsgehälter in den Abteilungen:
+SELECT DEPTNO, AVG(SAL)
+FROM EMP
+GROUP BY DEPTNO;
+
+SELECT DEPTNO
+FROM EMP
+WHERE JOB = ’CLERK‘
+GROUP BY DEPTNO
+HAVING COUNT(*) >= 2;
+
+## Subquery
 
 
 
