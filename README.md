@@ -257,11 +257,37 @@ WHERE JOB = ’CLERK‘
 GROUP BY DEPTNO
 HAVING COUNT(*) >= 2;
 
-## Subquery
+# Subsprache
 
+## DDL - Data Definition Language
 
+CREATE - definieren
+ALTER  - ändern
+DROP - löschen
 
-  
+## DML . Date Manipulation Language
+
+SELECT - auswählen
+UPDATE - aktualisieren
+INSERT - einfügen
+DELETE - löschen
+
+## DCL - Data Control Language
+
+GRANT  - Berechtigungsvergabe
+REVOKE - Berechtigungsentzug
+COMMIT - fixieren von Veränderungen
+ROLLBACK - Zurücksetzen
+LOCK   - sperren 
+
+# Constraints 
+
+Einschränkungen – beispielsweise referentielle Integrität - werden vom DBMS geprüft
+
+Table – Constraint
+Column - Constraint
+ 
+
 
 ## Markdown Cheatsheet
 ### Headlines
