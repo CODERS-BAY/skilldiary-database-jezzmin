@@ -282,11 +282,24 @@ LOCK   - sperren
 
 # Constraints 
 
+## Constraints
 Einschränkungen – beispielsweise referentielle Integrität - werden vom DBMS geprüft
 
 Table – Constraint
 Column - Constraint
  
+## Not Null Constraints
+
+Definiert, dass eine Spalte keine Null – Values enthalten darf.
+create table teams (
+    teamno        smallint        not null,
+    …    );
+
+Änderung einer bestehenden Tabelle:
+ALTER TABLE emp
+MODIFY (sal NUMBER CONSTRAINT nn_sal NOT
+NULL)
+
 
 
 ## Markdown Cheatsheet
